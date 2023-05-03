@@ -6,6 +6,6 @@ list1 = [-5,9,0,3,-1,-2,1,4,-2,10,2,0,-9,8,10,-9,0,-5,-5,7]
 min = int(input("Введите минимальное значение диапазона: "))
 max = int(input("Введите максимальное значение диапазона: "))
 
-for i in range(len(list1)-1):
+for i in range(len(list1)):
     if min <= list1[i] <= max:
         print(i)
